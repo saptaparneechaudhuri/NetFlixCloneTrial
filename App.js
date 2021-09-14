@@ -7,7 +7,7 @@
  */
 
 import React from 'react';
-import type {Node} from 'react';
+// import type {Node} from 'react';
 import {
   SafeAreaView,
   View,
@@ -15,8 +15,8 @@ import {
   useColorScheme,
   Text,
 } from 'react-native';
-import BottomTabNavigator from './src/navigaiton/BottomTabNavigation';
-import HomeScreen from './src/screens/HomeScreen';
+// import BottomTabNavigator from './src/navigaiton/BottomTabNavigation';
+// import HomeScreen from './src/screens/HomeScreen';
 import MainNavigation from './src/navigaiton/MainNavigation';
 import {Appearance} from 'react-native';
 
