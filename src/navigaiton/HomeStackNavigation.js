@@ -7,12 +7,17 @@ const Stack = createNativeStackNavigator();
 
 const HomeStackNavigator = () => {
   return (
-    <Stack.Navigator
-      screenOptions={{
-        headerShown: false,
-      }}>
-      <Stack.Screen name="HomeScreen" component={HomeScreen} />
-      <Stack.Screen name="MovieDetailsScreen" component={MovieDetailsScreen} />
+    <Stack.Navigator>
+      {/* <Stack.Screen
+        name="HomeScreen"
+        component={HomeScreen}
+        options={{headerShown: false}}
+      /> */}
+      <Stack.Screen
+        name="MovieDetailsScreen"
+        component={MovieDetailsScreen}
+        options={{title: '', headerStyle: {backgroundColor: 'black'}}}
+      />
     </Stack.Navigator>
   );
 };
